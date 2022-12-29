@@ -1,13 +1,29 @@
+/*###############################
+IMPORTACIONES
+#################################*/
+
+//Modulos
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+//Estilos
 import './index.css';
-import App from './App';
+
+//Componentes
+//import App from './App';
+import Navbar from "./components/navbar/Navbar.js"
+
+//Core
 import reportWebVitals from './reportWebVitals';
+/*###############################
+LOGICA
+#################################*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar saludo="Hola">
+    </Navbar>
   </React.StrictMode>
 );
 
