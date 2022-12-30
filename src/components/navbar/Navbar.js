@@ -22,7 +22,7 @@ const Navbar = (props) => { //F contructora
     //Retorno que se renderiza
     return(
         <header className="navbar">
-            <p>Mi primera enlace y te saludo = {props.saludo}</p>
+            <p>Mi primera enlace y te saludo = {gprops.saludo}</p>
             <p>La fecha de hoy es {fecha.getDate()}</p>
         </header>
     )
