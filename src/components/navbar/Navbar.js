@@ -34,4 +34,4 @@ const Navbar = (props) => { //F contructora
 /*############################
            EXPORTACIONES
 ###############################*/
-export default Navbar
+export default Navbar 
