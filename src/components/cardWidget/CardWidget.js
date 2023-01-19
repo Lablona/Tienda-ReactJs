@@ -5,7 +5,7 @@
 //Modulos
 
 //Estilos
-import "./Footer.css"
+import "./CardWidget.css"
 //Componentes
 
 //Core
@@ -16,11 +16,11 @@ import "./Footer.css"
 /*############################
            LOGICA
 ###############################*/
-const Footer = () => { //F contructora
+const CardWidget = (props) => { //F contructora
 
     return(
         <p>
-            footer
+            ICONO CARRITO {props.cantidad}
         </p>
     )
     
@@ -31,4 +31,4 @@ const Footer = () => { //F contructora
 /*############################
            EXPORTACIONES
 ###############################*/
-export default Footer
+export default CardWidget

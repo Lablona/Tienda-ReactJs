@@ -1,4 +1,13 @@
-.navbar {
+header{
     background-color: black;
-    color: white;
+}
+.navbar {
+    background-color: rgb(228, 0, 0);
+    color: rgb(27, 0, 146);
+}
+.navbar-nav{
+    background-color: aqua;
+}
+.lol{
+    background-color: red;
 }

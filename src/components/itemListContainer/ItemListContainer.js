@@ -5,7 +5,7 @@
 //Modulos
 
 //Estilos
-import "./Footer.css"
+import "./ItemListContainer.css"
 //Componentes
 
 //Core
@@ -16,11 +16,11 @@ import "./Footer.css"
 /*############################
            LOGICA
 ###############################*/
-const Footer = () => { //F contructora
+const ItemListContainer = (props) => { //F contructora
 
     return(
         <p>
-            footer
+            Este es el componenete contenedor ItemListContainer {props.greeting}
         </p>
     )
     
@@ -31,4 +31,4 @@ const Footer = () => { //F contructora
 /*############################
            EXPORTACIONES
 ###############################*/
-export default Footer
+export default ItemListContainer

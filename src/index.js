@@ -11,7 +11,9 @@ import './index.css';
 
 //Componentes
 //import App from './App';
-import Navbar from "./components/navbar/Navbar.js"
+import Navbar from "./components/navbar/Navbar.js";
+import ItemListContainer from './components/itemListContainer/ItemListContainer';
+import Footer from './components/footer/Footer';
 
 //Core
 import reportWebVitals from './reportWebVitals';
@@ -22,8 +24,19 @@ LOGICA
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar saludo="Hola">
-    </Navbar>
+
+
+    <Navbar saludo ="Hola">
+    </Navbar> 
+
+    <ItemListContainer greeting = "Hola mundillo">
+    </ItemListContainer>
+
+    <Footer>
+    </Footer>
+
+
+
   </React.StrictMode>
 );
 
